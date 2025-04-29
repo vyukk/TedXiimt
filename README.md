@@ -1,13 +1,84 @@
-# React + Vite
+# 🎤 TEDxIIMT – Official Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the animated and elegant official website for **TEDxIIMT**, designed to showcase our **Events**, **Speakers**, and **Ideas Worth Spreading**.
 
-Currently, two official plugins are available:
+Built with modern tools like **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**, the site features smooth animations, minimal design, and a bold red-black aesthetic inspired by TED.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# TedXiimt
+- ⚛️ **React** – Component-based structure
+- ⚡ **Vite** – Super fast build tool
+- 🎨 **Tailwind CSS** – Utility-first styling
+- 🎞️ **Framer Motion** – Elegant and smooth animations
+
+---
+
+## 🚀 Features
+
+- 🧠 **Animated Hero Section** with rotating 'X' in the background  
+- 🗣️ **Speakers Section** powered by props  
+- 📅 **Events Section** with dummy data integration  
+- 📄 **About & Contact** neatly placed in the footer  
+- 🎯 Responsive and minimal layout  
+- 🌈 Red-black-white aesthetic
+
+---
+
+## 📁 Folder Structure
+
+tedxiimt/
+├── public/
+│   └── logo-white.png             # Your logo image
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx             # Header with logo and navigation
+│   │   ├── Hero.jsx               # Hero section with animation
+│   │   ├── Speakers.jsx           # Reusable Speaker card section with props
+│   │   ├── Events.jsx             # Events section with dummy props
+│   │   ├── Footer.jsx             # About + Contact in the footer
+│   ├── App.jsx                    # Main app combining all components
+│   ├── main.jsx                   # Vite entry point
+├── tailwind.config.js            # Tailwind CSS config
+├── postcss.config.js             # PostCSS config
+├── index.html                    # HTML entry
+├── package.json                  # NPM dependencies
+├── README.md                     # Project description
+└── vite.config.js                # Vite configuration
+
+
+
+---
+
+## ⚙️ Getting Started
+
+### Clone the repo
+
+```bash
+git clone https://github.com/vyukk/TedXiimt.git
+cd TedXiimt
+npm install
+npm run dev
+📌 TODO
+ Add actual speaker/event data
+
+ Deploy to GitHub Pages / Vercel / Netlify
+
+ Add responsive navbar toggle for mobile
+
+ Improve accessibility (ARIA roles)
+
+🤝 Contributions
+Pull requests are welcome! If you have creative animation ideas or UX enhancements, feel free to contribute.
+
+🔗 Links
+GitHub: https://github.com/vyukk/TedXiimt
+
+📬 Contact
+For collaborations, reach out via LinkedIn or drop a message in the contact section of the site.
+
+
+---
+
+Let me know if you want badges (like for Vite, Tailwind, GitHub deploy), or if you're ready to deploy and want help writing the deployment section!
